@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Description of the page less than 150 characters">
+    <title>Legal Tabs Theme</title>
+
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <link rel="preload" href="../fonts/web/NewsGothicStd.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="preload" href="../fonts/web/NewsGothicStd-Bold.woff2" as="font" type="font/woff2" crossorigin="">
+
+    <style>
+      @font-face {
+        font-family: 'News Gothic Std';
+        src: url('../fonts/web/NewsGothicStd.woff2') format('woff2'),
+            url('../fonts/web/NewsGothicStd.woff') format('woff');
+        font-weight: 500;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: 'News Gothic Std';
+        src: url('../fonts/web/NewsGothicStd-Bold.woff2') format('woff2'),
+            url('../fonts/web/NewsGothicStd-Bold.woff') format('woff');
+        font-weight: 600;
+        font-style: normal;
+      }
+    </style>
+  </head>
+</html>
+<body class="page">
+
+  <header class="page__header page-header">
+    <section class="page-header__banner">
+      <section class="page-header__banner-title">
+        <h1 class="page-header__banner-name">LEGAL TABS</h1>
+        <p class="page-header__banner-description">
+          The place for your legal needs
+        </p>
+      </section>
+    </section>
+    <nav class="page-header__navigation">
+      <ul class="page-header__navigation-list">
+        <li class="page-header__navigation-list-item">
+          <a href="tabs.html" class="page-header__navigation-list-link">LETTER</a>
+        </li>
+        <li class="page-header__navigation-list-item">
+          <a href="tabs.html" class="page-header__navigation-list-link">NUMBER</a>
+        </li>
+        <li class="page-header__navigation-list-item">
+          <a href="tabs.html" class="page-header__navigation-list-link">EXHIBIT</a>
+        </li>
+        <li class="page-header__navigation-list-item">
+          <a href="tabs.html" class="page-header__navigation-list-link">BLANK</a>
+        </li>
+        <li class="page-header__navigation-list-item">
+          <a href="#" class="page-header__navigation-list-link">CONTACT</a>
+        </li>
+        <li class="page-header__navigation-list-item">
+          <a href="#" class="page-header__navigation-list-link">ACCOUNT</a>
+        </li>
+        <li class="page-header__navigation-list-item">
+          <a href="#" class="page-header__navigation-list-link">LOGIN</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="page__main page-main">
+    <article class="tab-page">
+
+      <section class="tab-page__product-container">
+        <section class="product__container">
+          <section class="product__overview">
+            <section class="product__picture">
+              <img src="../img/number-product.png" alt="Number Tab">
+            </section>
+            <section class="product__options">
+              <section class="product__title">
+                <h2 class="product__title-header">Tab Product Title</h2>
+              </section>
+              <section class="product__price">
+                <h3 class="product__price-display">0</h3>
+              </section>
+              <section class="product__description">
+                <p class="product__description-copy">
+                  Order custom quantities below for any tabs A-Z.
+                </p>
+              </section>
+              <section class="product__options">
+                <section class="product__option-position-size">
+                  <label for="position-size">Position & Size</label>
+                  <select class="product__option-position-size-select" name="position-size">
+                    <option value="sidecut-letter-9-11" data-value="letter" label="">
+                      Sidecut Letter - 9x11
+                    </option>
+                    <option value="sidecut-letter-9-14" data-value="legal" label="">
+                      Sidecut Legal - 9x14
+                    </option>
+                    <option value="bottomcut-letter-9-11" data-value="letter" label="">
+                      Bottomcut Letter - 9x11
+                    </option>
+                  </select>
+                </section>
+                <section class="product__option-paper-siding">
+                  <label for="paper-siding">Single or Double Sided?</label>
+                  <select class="product__option-paper-side-select" name="paper-siding">
+                    <option value="single-side" label="">
+                      Single
+                    </option>
+                    <option value="double-side" label="">
+                      Double Sided
+                    </option>
+                  </select>
+                </section>
+                <section class="product__option-paper-weight">
+                  <label for="paper-weight">Paper Weight</label>
+                  <select class="product__option-paper-weight-select" name="paper-weight">
+                    <option value="80" data-name="eighty" label="">
+                      #80
+                    </option>
+                    <option value="90" data-name="ninety" label="">
+                      #90
+                    </option>
+                    <option value="110" data-name="oneten" label="">
+                      #110
+                    </option>
+                  </select>
+                </section>
+              </section>
+            </section>
+          </section>
+          <section class="product__tabs">
+            <h3>Select Your Tabs</h3>
+            <form class="product__tabs-form product-form__letter-form" action="">
+              <section class="letter-form__column">
+                <label class="letter-form__label" for="letter-a">
+                  <h4>A</h4>
+                  <input id="letter-a" name="letter-a" type="number" value="0" data-tab="A" placeholder="" min="0">
+                </label>
+                <label class="letter-form__label" for="letter-b">
+                  <h4>B</h4>
+                  <input id="letter-b" name="letter-b" type="number" value="0" data-tab="B" placeholder="" min="0">
+                </label>
+                <label class="letter-form__label" for="letter-c">
+                  <h4>C</h4>
+                  <input id="letter-c" name="letter-c" type="number" value="0" data-tab="C" placeholder="" min="0">
+                </label>
+                <label class="letter-form__label" for="letter-d">
+                  <h4>D</h4>
+                  <input id="letter-d" name="letter-d" type="number" value="0" data-tab="D" placeholder="" min="0">
+                </label>
+                <label class="letter-form__label" for="letter-c">
+                  <h4>E</h4>
+                  <input id="letter-e" name="letter-e" type="number" value="0" data-tab="E" placeholder="" min="0">
+                </label>
+                <label class="letter-form__label" for="letter-f">
+                  <h4>F</h4>
+                  <input id="letter-f" name="letter-f" type="number" value="0" data-tab="F" placeholder="" min="0">
+                </label>
+                <label class="letter-form__label" for="letter-g">
+                  <h4>G</h4>
+                  <input id="letter-g" name="letter-g" type="number" value="0" data-tab="G" placeholder="" min="0">
+                </label>
+              </section>
+              <section class="form-letter__column">
+                <label class="letter-form__label" for="letter-h">
+                  <h4>H</h4>
+                  <input id="letter-h" name="letter-h" type="number" value="0" data-tab="H" placeholder="" min="0">
+                </label>
+                <label class="letter-form__label" for="letter-i">
+                  <h4>I</h4>
+                  <input id="letter-i" name="letter-i" type="number" value="0" data-tab="I" placeholder="" min="0">
+                </label>
+                <label class="letter-form__label" for="letter-j">
+                  <h4>J</h4>
+                  <input id="letter-j" name="letter-c" type="number" value="0" data-tab="J" placeholder="" min="0">
+                </label>
+                <label class="letter-form__label" for="letter-d">
+                  <h4>K</h4>
+                  <input id="letter-d" name="letter-d" type="number" value="0" data-tab="K" placeholder="" min="0">
+                </label>
+                <label class="letter-form__label" for="letter-c">
+                  <h4>L</h4>
+                  <input id="letter-e" name="letter-e" type="number" value="0" data-tab="L" placeholder="" min="0">
+                </label>
+                <label class="letter-form__label" for="letter-f">
+                  <h4>M</h4>
+                  <input id="letter-f" name="letter-f" type="number" value="0" data-tab="M" placeholder="" min="0">
+                </label>
+                <label class="letter-form__label" for="letter-g">
+                  <h4>N</h4>
+                  <input id="letter-g" name="letter-g" type="number" value="0" data-tab="N" placeholder="" min="0">
+                </label>
+              </section>
+              <section class="form-letter__column">
+                <label class="letter-form__label" for="letter-h">
+                  <h4>O</h4>
+                  <input id="letter-h" name="letter-h" type="number" value="0" data-tab="O" placeholder="" min="0">
+                </label>
+                <label class="letter-form__label" for="letter-i">
+                  <h4>P</h4>
+                  <input id="letter-i" name="letter-i" type="number" value="0" data-tab="P" placeholder="" min="0">
+                </label>
+                <label class="letter-form__label" for="letter-j">
+                  <h4>Q</h4>
+                  <input id="letter-j" name="letter-c" type="number" value="0" data-tab="Q" placeholder="" min="0">
+                </label>
+                <label class="letter-form__label" for="letter-d">
+                  <h4>R</h4>
+                  <input id="letter-d" name="letter-d" type="number" value="0" data-tab="R" placeholder="" min="0">
+                </label>
+                <label class="letter-form__label" for="letter-c">
+                  <h4>S</h4>
+                  <input id="letter-e" name="letter-e" type="number" value="0" data-tab="S" placeholder="" min="0">
+                </label>
+                <label class="letter-form__label" for="letter-f">
+                  <h4>T</h4>
+                  <input id="letter-f" name="letter-f" type="number" value="0" data-tab="T" placeholder="" min="0">
+                </label>
+              </section>
+              <section class="form-letter__column">
+                <label class="letter-form__label" for="letter-g">
+                  <h4>U</h4>
+                  <input id="letter-g" name="letter-g" type="number" value="0" data-tab="U" placeholder="" min="0">
+                </label>
+                <label class="letter-form__label" for="letter-h">
+                  <h4>V</h4>
+                  <input id="letter-h" name="letter-h" type="number" value="0" data-tab="V" placeholder="" min="0">
+                </label>
+                <label class="letter-form__label" for="letter-i">
+                  <h4>W</h4>
+                  <input id="letter-i" name="letter-i" type="number" value="0" data-tab="W" placeholder="" min="0">
+                </label>
+                <label class="letter-form__label" for="letter-j">
+                  <h4>X</h4>
+                  <input id="letter-j" name="letter-c" type="number" value="0" data-tab="X" placeholder="" min="0">
+                </label>
+                <label class="letter-form__label" for="letter-d">
+                  <h4>Y</h4>
+                  <input id="letter-d" name="letter-d" type="number" value="0" data-tab="Y" placeholder="" min="0">
+                </label>
+                <label class="letter-form__label" for="letter-c">
+                  <h4>Z</h4>
+                  <input id="letter-e" name="letter-e" type="number" value="0" data-tab="Z" placeholder="" min="0">
+                </label>
+              </section>
+            </form>
+            <button class="product__tabs-form-reset">Reset</button>
+          </section>
+          <section class="product__details">
+            <h3>Product Details</h3>
+          </section>
+        </section>
+      </section>
+    </article>
+  </main>
+  <footer class="page__footer page-footer">
+    <section class="page-footer__container">
+      <section class="page-footer__column">
+        <section class="page-footer__contact-item">
+          <b>9AM-5PM M-F</b>
+        </section>
+        <section class="page-footer__contact-item">
+          <a href="tel:1-212-226-2870">Customer Support: 1-212-684-3600</a>
+        </section>
+        <section class="page-footer__contact-item">
+          <a href="mailto:taborders@gsbdigital.com">taborders@gsbdigital.com</a>
+        </section>
+        <section class="page-footer__contact-item">
+          <a href="https://gsbdigital.com/services/litigation-support/">
+            Need litigation services support?  Click here.
+          </a>
+        </section>
+        <section class="page-footer__contact-item">
+          <a href="https://gsbdigital.com">
+            Production provided by GSB Digital
+          </a>
+        </section>
+      </section>
+      <section class="page-footer__column">
+        <section class="page-footer__map">
+          <iframe class="page-footer__map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.046647210704!2d-73.93441034807633!3d40.73899907922749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a711c3411f%3A0x5f01e4f56a2a2642!2sGSB%20Digital!5e0!3m2!1sen!2sus!4v1579792632135!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </section>
+      </section>
+    </section>
+  </footer>
+
+
+
+</body>
+<script src="../js/scripts.js"></script>
+

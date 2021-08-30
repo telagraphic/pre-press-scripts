@@ -1,0 +1,9 @@
+- [x] zund process profiles
+- [x] add zund dots to corners
+  - [ ] allow for different bleed sizes and positioning on outside bleed line
+- [ ] create layers for traditional and digital setup
+- [x] add white ink and spot1 colors for white ink
+- [ ] add zund dots to corners with white ink
+- [ ] separate zund profiles to layers in illustrator for zund file prep
+- [ ] add slug to document on top of bleed
+- [ ] swatch grid layout

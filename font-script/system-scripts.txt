@@ -1,0 +1,5 @@
+# set screenshots home directory
+defaults write com.apple.screencapture location Users/nlyons/Documents/Screenshots
+
+# reset to desktop
+defaults write com.apple.screencapture location ~/Desktop
